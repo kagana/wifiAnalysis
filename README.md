@@ -23,6 +23,10 @@ Follow steps below:
 You should see a plot window. Draw a sketch of your home by clicking lines. You should always click points next to eachother for drawing a wall. Jump points than restart clicking consecutive points if you want to make a space(door).
 You can save **ldata** if you want to save your sketch.
 
+Interestingly, if you click the exact point, it is harder to draw. This could be a bug of MATLAB. Click a very close point to the point you want to select if feel it hard.
+
+Here is a simple sketch of my house in Istanbul.
+
 
 
 
