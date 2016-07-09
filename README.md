@@ -21,6 +21,7 @@ Follow steps below:
 
 ### 1. Run getData1.m
 You should see a plot window. Draw a sketch of your home by clicking lines. You should always click points next to eachother for drawing a wall. Jump points than restart clicking consecutive points if you want to make a space(door).
+You can save **ldata** if you want to save your sketch.
 
 
 
