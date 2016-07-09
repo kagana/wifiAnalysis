@@ -17,7 +17,7 @@ And attenuation due to a wall:
 wallDrop = 3;
 
 ## Usage
-Follow steps below:
+Follow the two steps below:
 
 ### 1. Run getData1.m
 You should see a plot window. Draw a sketch of your home by clicking lines. You should always click points next to eachother for drawing a wall. Jump points than restart clicking consecutive points if you want to make a space(door).
@@ -26,7 +26,25 @@ You can save **ldata** if you want to save your sketch.
 Interestingly, if you click the exact point, it is harder to draw. This could be a bug of MATLAB. Click a very close point to the point you want to select if feel it hard.
 
 Here is a simple sketch of my house in Istanbul.
+![]({{site.baseurl}}/sketch1.jpg)
+
+### 2. Run evalData.m
+This will ask you coordinates of the router. Enter x and y coordinates.
+![]({{site.baseurl}}/enterData.JPG)
+
+You should see the results. Colorbar unit is dB.
+![]({{site.baseurl}}/res1.JPG)
 
 
+Just rerun evalData to make a new analysis with new coordinates.
+
+My living room was suffering from low signal power. I decided to make a change. New location enlarges the coverage, so I can update my PS3 :)
+![]({{site.baseurl}}/res2.jpg)
+
+## Modifications
+You can change wall attenuation, router signal levels. You can define finer grids as your needs. Just dig the code a little bit.
+
+## Thanks
+I used InterX function from MATLAB file exchange to find intersection points of two lines. [InterX](https://www.mathworks.com/matlabcentral/fileexchange/22441-curve-intersections/content/InterX.m) Thank you NS. 
 
 
