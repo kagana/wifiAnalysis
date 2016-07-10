@@ -47,6 +47,8 @@ My living room was suffering from low signal power. I decided to make a change. 
 
 ![](/res2.jpg)
 
+I checked different locations against signal power level using a wi-fi signal level meter android application on my mobile phone and satisfied. 
+
 ## Modifications
 You can change wall attenuation, router signal levels. You can define finer grids as your needs. Just dig the code a little bit.
 
